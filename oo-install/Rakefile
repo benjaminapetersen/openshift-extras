@@ -139,6 +139,7 @@ task :package do
       pkgname << build[:version] + '-'
       pkgurl = build[:version] + '\/'
       pkgdir = @package_dir + "/" + build[:version]
+      puts "pkgdir: #{pkgdir}"
       Dir.mkdir(pkgdir)
     end
     pkgname << pkgtime
