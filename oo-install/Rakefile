@@ -57,7 +57,7 @@ task :package do
   builds = [
     # TODO: Figure out if this should be changed to 3.0
     { :version => nil,
-      :ose_launcher => 'https://raw.githubusercontent.com/openshift/openshift-extras/enterprise-2.2/enterprise/install-scripts/generic/openshift.sh',
+      #:ose_launcher => 'https://raw.githubusercontent.com/openshift/openshift-extras/enterprise-2.2/enterprise/install-scripts/generic/openshift.sh',
       :context => :origin,
       :base => working_branch,
       :branch => 'master',
